@@ -1,0 +1,156 @@
+#header {
+    color: black;
+    padding:5px;
+	text-align:center;
+    align-content: center;
+
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section {
+    width:auto;
+    max-width: 100%;
+    margin: auto;
+    padding: auto;
+	text-align: center;
+	opacity: 0.80;
+	font-family: Verdana;
+	transition:all 0.6s ease;	
+    text-align: center;
+}
+
+ul#Menu{
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+    max-width: 650px;
+	background-color: beige;
+	padding: 3px 10px;
+	list-style: none;
+	border-radius: 20px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	opacity:0.40;
+	transition: all 0.6s ease;
+}
+ 
+ul#Menu:after{
+	content: "";
+	clear: both;
+	display: flex;
+}
+ul#Menu li{
+	float: left;
+	text-align:center;
+}
+ 
+ul#Menu li a{
+	display: flex;
+	font-weight:bold;
+	padding: 15px 20px;
+	color: #0051FF;
+	text-decoration: none;
+}
+ul#Zoek li {
+    text-align: left;
+    display: flex;
+	font-weight:bold;
+    color: black;
+}
+ul#Zoek li a{
+    color: black;
+}
+
+#lel
+{
+	width: auto;
+	margin: auto;
+	text-align: left;
+	max-width: 950px;
+	margin-top:auto;
+	margin-left: auto ;
+	margin-right: auto ;
+	background-color: white;
+	color: black;
+	border: 2px solid;
+	padding: 20px;
+	border-image: linear-gradient(to right, rgba(54,140,245,1) 0%, rgba(57,201,245,1) 25%, rgba(240,174,93,1) 54%, rgba(230,122,28,1) 79%, rgba(240,47,23,1) 100%);
+	border-image-slice: 1;
+	transition:all 0.6s ease;
+	opacity:0.80;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#header
+{
+    text-align: center;
+}
+body
+{
+	background-color: brown;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: auto;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+footer{
+    text-align: center;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+}
+
+html {
+    overflow-y: scroll;
+	font-family: Verdana;
+    
+}
+@media screen and (min-width:480px)
+{
+    width:50%;
+
+}
+.map{
+    width: 100%;
+    max-width: 480px;
+    }
+.responsive{
+    width: 100%;
+    max-width: 480px;
+      
+}
+.pic{
+    width: 100px;
+    height: 100px;
+}
+.picbig{
+    position: absolute;
+    width: 0px;    
+}
+.pic:hover + .picbig
+{
+    width:500px;
+    height: 500px;
+}
